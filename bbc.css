@@ -1,0 +1,359 @@
+#topbar {
+ 
+	width:1030px;
+	margin:0 auto;
+	height: 40px;
+}
+
+body {
+	
+	margin:0;
+	padding:0;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+#logo {
+	margin-top:8px;
+	margin-right:8px;
+	width:84px;
+	float:left;
+}
+
+/*#signin-div {
+
+	
+
+}*/
+
+.topbar-section {
+
+	float:left;
+	border-left:1px #CCCCCC solid;
+	height:100%;
+
+} 
+
+#signin-image {
+
+	width:20px;
+	margin:11px 8px 11px 15px;
+	float:left;
+
+}
+
+#signin-text {
+
+	font-weight:bold;
+	font-size:85%;
+	position:relative;
+	top:11px;
+	padding-right:80px;
+}
+
+.topbar-menu {
+
+	font-weight:bold;
+	font-size:85%;
+	padding:11px 12px 0px 12px;
+	height:27px; /*we want the same height for the line as before, which was 40px, but since there is padding it is 40px - 13px = 27*/
+}
+
+#more-arrow {
+
+	width:7px;
+	margin-left:70px;
+}
+
+#search-box {
+
+	background-color:#e4e4e4;
+	border:none;
+	font-weight:bold;
+	font-size:14px;
+	padding:4px;
+	margin:8px 0 8px 8px;
+	float:left; /*so that the magnifying glass goes to the right of the box*/
+	width:170px;
+
+}
+
+#magnifying-glass {
+
+	height:24px;
+	margin-top:8px;
+
+}
+
+.clear {
+
+	clear:both;
+
+}
+
+#menu-bar-container {
+
+	background-color:#BB1919;
+	width:100%;
+	height:60px;
+	
+}
+
+#menu-bar {
+
+	width:1030px; /*so that the menu bar starts at the same time as the top bar*/
+	margin:0 auto;
+}
+
+h1 {
+
+	padding:0;
+	margin:0;
+	color:#FFFFFF;
+	font-size:40px;
+	font-weight:normal;
+	padding-top:8px;
+
+}
+
+#menu-bar-subcontainer {
+
+	background-color:#A91717;
+	width:100%;
+	
+}
+
+#menu-bar-2 {
+
+	width:1030px;
+	margin:0 auto;
+	height:35px;
+}
+
+#menu-bar-2 a {
+
+	color: #FFFFFF;
+	text-decoration:none;
+	padding:0 10px;
+	border-right:1px solid #BB4545;
+	font-size:14px;
+	position:relative;
+	top:8px;
+}
+
+#menu-bar-2 a:hover {
+
+	text-decoration:underline;
+	
+}
+
+.no-border {
+
+	border:none !important; /*this overwrites any other rule as it has priority - hence important*/
+	
+}
+
+#down-arrow {
+
+	height:12px;
+	position:relative;
+	top:10px;
+	
+}
+
+.no-padding-right {
+
+	padding-right:0px !important;
+
+}
+
+.no-padding-left {
+
+	padding-left:0px !important;
+	
+}
+
+#page-container {
+
+	width:1030px;
+	margin:0 auto;
+	
+}
+
+#main-category {
+
+	font-weight:normal;
+	margin-top:8px;
+	font-size:20px;
+	border-bottom:3px solid #A91717;
+	width:102px;
+}
+
+h3 a {
+
+	color:#000000;
+	font-size:32px;
+	text-decoration:none;
+
+}
+
+
+h3 a:visited {
+
+	color:#686868;
+
+}
+
+h3 a:hover {
+
+	color:#1167a8;
+	
+}
+
+h3 {
+
+	height:55px;
+
+}
+
+#article-summary {
+
+	color:#5a5a5a;
+	font-size:14px;
+	width:230px;
+	float:left;
+
+}
+
+#article-summary img {
+
+	height:14px;
+	position:relative;
+	top:1px;
+	padding-right:5px;
+}
+
+.topic-link {
+
+	text-decoration:none;
+	color:#A91717;
+	border-left:1px solid #CCCCCC;
+	padding-left:8px;
+
+}
+
+#article-summary a:hover {
+
+	color:#1167a8;
+
+}
+
+.date {
+
+	padding-right:3px;
+
+}
+
+#article-container {
+
+	float:left;
+	width:645px;
+	border-right:1px solid #CCCCCC;
+	padding-right:20px;
+
+}
+
+#main-article-image {
+	
+	width:400px;
+	margin-left:15px;
+	margin-top:15px;
+	
+}
+
+#article-hr {
+
+	border-top:1px solid #A91717;
+	width:40px;
+
+}
+
+.article-link {
+
+	color:#000000;
+	text-decoration:none;
+
+}
+
+#watch-list-container {
+
+	float:left;
+	width:335px;
+	margin-left:15px;
+}
+
+#other-category {
+
+	color:#404040;
+	font-weight:normal;
+
+}
+
+.video-articles {
+
+	float:left;
+	width:190px;
+	margin:0px 0px 25px 8px;
+	padding:0;
+	font-size:14px;
+	color:#5a5a5a;
+
+}
+
+.video-img {
+
+	width:110px !important;
+	float:left !important;
+
+}
+
+h4 {
+
+	font-size:16px;
+	margin:0px 0px 5px 0px;
+	padding:0px;
+}
+
+h4 a {
+
+	text-decoration:none;
+	
+}
+
+h4 a:visited {
+
+	color:#686868;
+
+}
+
+h4 a:hover {
+
+	color:#1167a8;
+	
+}
+
+.video-articles img {
+
+	height:14px;
+	position:relative;
+	top:2px;
+	padding-right:5px;
+	
+}
+
+.no-space {
+
+	padding:0px;
+	margin:0px;
+
+}
